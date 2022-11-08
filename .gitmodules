@@ -1,3 +1,6 @@
 [submodule "OmniIsaacGymEnvs"]
 	path = OmniIsaacGymEnvs
 	url = https://github.com/NVIDIA-Omniverse/OmniIsaacGymEnvs
+[submodule "IsaacGymEnvs"]
+	path = IsaacGymEnvs
+	url = https://github.com/NVIDIA-Omniverse/IsaacGymEnvs
