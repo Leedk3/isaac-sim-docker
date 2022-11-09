@@ -1,15 +1,21 @@
 [submodule "OmniIsaacGymEnvs"]
 	path = OmniIsaacGymEnvs
-	url = https://github.com/NVIDIA-Omniverse/OmniIsaacGymEnvs
+	url = https://github.com/Leedk3/OmniIsaacGymEnvs
+	branch = main
 [submodule "IsaacGymEnvs"]
 	path = IsaacGymEnvs
-	url = https://github.com/NVIDIA-Omniverse/IsaacGymEnvs
+	url = https://github.com/Leedk3/IsaacGymEnvs
+	branch = main
 [submodule "ros_ws/src/isaac_ros_common"]
 	path = ros_ws/src/isaac_ros_common
-	url = ttps://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git
+	url = https://github.com/Leedk3/isaac_ros_common
+	branch = main
 [submodule "ros_ws/src/isaac_ros_visual_slam"]
 	path = ros_ws/src/isaac_ros_visual_slam
 	url = https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam
+	branch = main
 [submodule "ros_ws/src/isaac_ros_nitros"]
 	path = ros_ws/src/isaac_ros_nitros
 	url = https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros
+	branch = main
+
