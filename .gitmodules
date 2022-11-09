@@ -7,3 +7,9 @@
 [submodule "ros_ws/src/isaac_ros_common"]
 	path = ros_ws/src/isaac_ros_common
 	url = ttps://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git
+[submodule "ros_ws/src/isaac_ros_visual_slam"]
+	path = ros_ws/src/isaac_ros_visual_slam
+	url = https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam
+[submodule "ros_ws/src/isaac_ros_nitros"]
+	path = ros_ws/src/isaac_ros_nitros
+	url = https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros
