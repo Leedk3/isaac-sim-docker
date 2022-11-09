@@ -4,3 +4,6 @@
 [submodule "IsaacGymEnvs"]
 	path = IsaacGymEnvs
 	url = https://github.com/NVIDIA-Omniverse/IsaacGymEnvs
+[submodule "ros_ws/src/isaac_ros_common"]
+	path = ros_ws/src/isaac_ros_common
+	url = ttps://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git

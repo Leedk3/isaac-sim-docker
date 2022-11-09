@@ -38,5 +38,13 @@ RUN python get-pip.py \
 
 RUN echo 'alias PYTHON_PATH=/isaac-sim/python.sh' >> ~/.bashrc
 
+# RUN locale-gen en_US.UTF-8
+# RUN useradd -m -d /home/ubuntu ubuntu -p `perl -e 'print crypt("ubuntu", "salt"),"\n"'` && \
+#     echo "ubuntu ALL=(ALL) ALL" >> /etc/sudoers
+# USER ubuntu
+# # WORKDIR /home/ubuntu
+# ENV HOME=/home/ubuntu \
+#     CATKIN_SHELL=bash
+# ENV LANG=en_US.UTF-8 LANGUAGE=en_US:en LC_ALL=en_US.UTF-8
 
-WORKDIR /root/OmniIsaacGymEnvs
+WORKDIR /root
