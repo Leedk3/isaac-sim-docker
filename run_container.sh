@@ -36,9 +36,9 @@ else
     -v ~/docker/isaac-sim/documents:/root/Documents:rw \
     -v ~/docker/isaac-sim/documents:/root/Documents:rw \
     -v /home/$USER/isaacSim/OmniIsaacGymEnvs:/root/OmniIsaacGymEnvs:rw \
-    -v /home/$USER/isaacSim/OmniIsaacGymEnvs/omniisaacgymenvs.egg-info:/root/OmniIsaacGymEnvs/omniisaacgymenvs.egg-info \
+    -v /home/$USER/isaacSim/OmniIsaacGymEnvs/omniisaacgymenvs.egg-info:/root/OmniIsaacGymEnvs/omniisaacgymenvs.egg-info:rw \
     -v /home/$USER/isaacSim/IsaacGymEnvs:/root/IsaacGymEnvs:rw \
-    -v /home/$USER/isaacSim/IsaacGymEnvs/isaacgymenvs.egg-info:/root/IsaacGymEnvs/isaacgymenvs.egg-info \
+    -v /home/$USER/isaacSim/IsaacGymEnvs/isaacgymenvs.egg-info:/root/IsaacGymEnvs/isaacgymenvs.egg-info:rw \
     isaac-sim:latest
     # nvcr.io/nvidia/isaac-sim:2022.1.1
 

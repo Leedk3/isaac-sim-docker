@@ -19,3 +19,7 @@
 	url = https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros
 	branch = main
 
+[submodule "ros_ws/src/turtlebot3"]
+	path = ros_ws/src/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+	branch = humble-devel
