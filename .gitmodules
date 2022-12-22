@@ -23,3 +23,15 @@
 	path = ros_ws/src/turtlebot3
 	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
 	branch = humble-devel
+[submodule "ros_ws/src/dynamixel-workbench"]
+	path = ros_ws/src/dynamixel-workbench
+	url = https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
+	branch = humble-devel
+[submodule "ros_ws/src/DynamixelSDK"]
+	branch = humble-devel
+	path = ros_ws/src/DynamixelSDK
+	url = https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+[submodule "ros_ws/src/turtlebot3_msgs"]
+	path = ros_ws/src/turtlebot3_msgs
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+	branch = humbel-devel
